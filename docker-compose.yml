@@ -1,0 +1,13 @@
+services:
+  workspace:
+    container_name: python-playground
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - PYTHON_VERSION=3.10
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/code 
+    working_dir: /code
