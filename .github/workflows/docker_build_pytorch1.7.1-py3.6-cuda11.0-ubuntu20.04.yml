@@ -1,6 +1,7 @@
 name: Build Image(liuyuweitarek/pytorch:1.7.1-py3.6-cuda11.0-ubuntu20.04)
 
 env:
+  IMAGE_TAG: "liuyuweitarek/pytorch:1.7.1-py3.6-cuda11.0-ubuntu20.04"
   PYTHON_VERSION: "3.6"
   PACKAGE_MANAGEMENT: "pip"
   POETRY_VERSION: "1.8.1"

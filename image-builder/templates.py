@@ -48,6 +48,7 @@ local_pip_build_script_template="""docker build \
 github_workflow_template="""name: Build Image({IMAGE_TAG})
 
 env:
+  IMAGE_TAG: "{IMAGE_TAG}"
   PYTHON_VERSION: "{PYTHON_VERSION}"
   PACKAGE_MANAGEMENT: "{PACKAGE_MANAGEMENT}"
   POETRY_VERSION: "1.8.1"
