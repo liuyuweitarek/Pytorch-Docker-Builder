@@ -65,22 +65,36 @@ on:
       - {WORKFLOW_FILE}
 
 jobs:
-  build:
+  build-image:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
-      - name: Login DockerHub
-        run: docker login --username=${{{{ secrets.DOCKER_USERNAME }}}} --password=${{{{ secrets.DOCKER_PASSWORD }}}}
+      - name: Mock Login DockerHub
+        run: |
+          echo "Login DockerHub"
 
       - name: Build docker image
         run: |
+          cd image-builder/docker
           if [[ $PACKAGE_MANAGEMENT == 'poetry' ]]; then
-              image-builder/docker/build-ubuntu-poetry.sh
+              bash build-ubuntu-poetry.sh
           else
-              image-builder/docker/build-ubuntu-pip.sh
+              bash build-ubuntu-pip.sh
           fi
 
-      - name: Push docker image
-        run: docker push {IMAGE_TAG}
+      - name: Run Test Cases
+        run: |
+          docker run --rm {IMAGE_TAG} pytest tests/ || exit 1
+
+      - name: Push Docker Image on Success && Record Success
+        if: success()
+        run: |
+          echo "Push Docker Image: {IMAGE_TAG}"
+          echo "Record Success: {IMAGE_TAG}"
+      
+      - name: Record Failure
+        if: failure()
+        run: |
+          echo "Record Failure: {IMAGE_TAG}"
 """
