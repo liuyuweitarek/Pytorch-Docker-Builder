@@ -2,8 +2,7 @@ ARG PYTHON_VERSION
 
 FROM python:${PYTHON_VERSION}-slim as Base
 
-ENV PROJECT_ROOT_DIR=$ROOT_DIR \
-  DEBIAN_FRONTEND=noninteractive \ 
+ENV DEBIAN_FRONTEND=noninteractive \ 
   # Python configuration:
   PYTHONFAULTHANDLER=1 \
   PYTHONUNBUFFERED=1 \ 
@@ -25,8 +24,7 @@ RUN apt-get update \
 
 ENV PATH="${POETRY_HOME}/bin:$PATH"
 
-WORKDIR /code/workspace
+WORKDIR /code
 
-COPY workspace/pyproject.toml /code/workspace/pyproject.toml
-
+COPY pyproject.toml poetry.lock ./
 RUN poetry install && rm -rf ${POETRY_CACHE_DIR}

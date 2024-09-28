@@ -1,6 +1,6 @@
 services:
   workspace:
-    container_name: python-playground
+    container_name: image-builder
     build:
       context: .
       dockerfile: Dockerfile
@@ -9,5 +9,5 @@ services:
     tty: true
     stdin_open: true
     volumes:
-      - .:/code 
+      - .:/code
     working_dir: /code
