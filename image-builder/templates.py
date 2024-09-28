@@ -63,6 +63,8 @@ on:
       - main
     paths:
       - {WORKFLOW_FILE}
+  
+  workflow_dispatch:
 
 jobs:
   build-image:
