@@ -1,0 +1,52 @@
+name: Build Image(liuyuweitarek/pytorch:1.7.1-py3.6-cuda11.0-ubuntu20.04)
+
+env:
+  PYTHON_VERSION: "3.6"
+  PACKAGE_MANAGEMENT: "pip"
+  POETRY_VERSION: "1.8.1"
+  TORCH_PACKAGE_NAME: "1.7.1+cu110"
+  TORCH_SOURCE_URL: "https://download.pytorch.org/whl/cu110"
+  PYPROJECT_FILE_DIR: "./default-workspace"
+  DEFAULT_PYPROJECT_FILE: ""
+  UBUNTU_VERSION: "20.04"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/docker_build_pytorch1.7.1-py3.6-cuda11.0-ubuntu20.04.yml
+
+jobs:
+  build-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Mock Login DockerHub
+        run: |
+          echo "Login DockerHub"
+
+      - name: Build docker image
+        run: |
+          cd image-builder/docker
+          if [[ $PACKAGE_MANAGEMENT == 'poetry' ]]; then
+              bash build-ubuntu-poetry.sh
+          else
+              bash build-ubuntu-pip.sh
+          fi
+
+      - name: Run Test Cases
+        run: |
+          docker run --rm liuyuweitarek/pytorch:1.7.1-py3.6-cuda11.0-ubuntu20.04 pytest tests/ || exit 1
+
+      - name: Push Docker Image on Success && Record Success
+        if: success()
+        run: |
+          echo "Push Docker Image: liuyuweitarek/pytorch:1.7.1-py3.6-cuda11.0-ubuntu20.04"
+          echo "Record Success: liuyuweitarek/pytorch:1.7.1-py3.6-cuda11.0-ubuntu20.04"
+      
+      - name: Record Failure
+        if: failure()
+        run: |
+          echo "Record Failure: liuyuweitarek/pytorch:1.7.1-py3.6-cuda11.0-ubuntu20.04"
