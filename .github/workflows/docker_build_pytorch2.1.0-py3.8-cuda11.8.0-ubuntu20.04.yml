@@ -16,6 +16,8 @@ on:
       - main
     paths:
       - .github/workflows/docker_build_pytorch2.1.0-py3.8-cuda11.8.0-ubuntu20.04.yml
+  
+  workflow_dispatch:
 
 jobs:
   build-image:
