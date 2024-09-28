@@ -1,0 +1,41 @@
+ARG PYTHON_VERSION \
+  UBUNTU_VERSION \ 
+  TORCH_PACKAGE_NAME \ 
+  TORCH_SOURCE_URL
+# Base Stage
+FROM ubuntu:${UBUNTU_VERSION}
+
+ARG PYTHON_VERSION=$PYTHON_VERSION \
+  UBUNTU_VERSION=$UBUNTU_VERSION \
+  TORCH_PACKAGE_NAME=$TORCH_PACKAGE_NAME \ 
+  TORCH_SOURCE_URL=$TORCH_SOURCE_URL
+
+ENV PROJECT_ROOT_DIR=/defaut-workspace \
+  TORCH_PACKAGE_NAME=$TORCH_PACKAGE_NAME \ 
+  TORCH_SOURCE_URL=$TORCH_SOURCE_URL \
+  DEBIAN_FRONTEND=noninteractive \ 
+  # Python configuration:
+  PYTHON_VERSION=$PYTHON_VERSION \
+  PYTHONFAULTHANDLER=1 \
+  PYTHONUNBUFFERED=1 \ 
+  PYTHONDONTWRITEBYTECODE=1
+
+ENV NVIDIA_DRIVER_CAPABILITIES ${NVIDIA_DRIVER_CAPABILITIES:-compute,utility}
+
+RUN apt-get update \
+    && apt install --no-install-recommends -y curl wget build-essential gpg-agent software-properties-common \
+    && add-apt-repository ppa:deadsnakes/ppa \
+    && apt install -y python${PYTHON_VERSION}-venv python-is-python3 python3-pip \
+    && ln -sf /usr/bin/python${PYTHON_VERSION} /usr/bin/python \
+    && ln -sf /usr/bin/python${PYTHON_VERSION} /usr/bin/python3 \
+    && apt clean \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV PATH=/usr/lib/python${PYTHON_VERSION}/site-packages:$PATH
+
+WORKDIR ${PROJECT_ROOT_DIR}
+
+RUN python -m pip install --upgrade pip \
+    && python -m pip install torch==${TORCH_PACKAGE_NAME} --extra-index-url ${TORCH_SOURCE_URL} --default-timeout=2000 \
+    && rm -rf /root/.cache/pip
+

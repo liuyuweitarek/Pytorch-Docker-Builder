@@ -1,0 +1,16 @@
+{
+    "11.0" : {
+        "package_name": "cu110",
+        "python_available_torch": {
+            "3.6": ["1.7.1"]
+        },
+        "ubuntu_avaiable": ["20.04"]
+    },
+    "11.8.0": {
+        "package_name": "cu118",
+        "python_available_torch": {
+            "3.8": ["2.0.0", "2.1.0"]
+        },
+        "ubuntu_avaiable": ["20.04"]
+    }
+}
