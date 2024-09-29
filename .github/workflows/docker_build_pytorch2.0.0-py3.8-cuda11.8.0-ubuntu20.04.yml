@@ -41,6 +41,19 @@ jobs:
 
       - name: Run Test Cases
         run: |
+          wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.1-1_all.deb
+          sudo dpkg -i cuda-keyring_1.1-1_all.deb
+          sudo apt-get install cuda-toolkit
+          sudo reboot
+          curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | \
+          sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
+          && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+          sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+          sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+          sudo apt-get update
+          sudo apt-get install -y nvidia-container-toolkit
+          sudo nvidia-ctk runtime configure --runtime=docker
+          sudo systemctl restart docker
           docker run --rm -v $(pwd)/tests:/default-workspace/tests --name test-container --gpus all liuyuweitarek/pytorch:2.0.0-py3.8-cuda11.8.0-ubuntu20.04 bash -c "pytest tests"
 
       - name: Push Docker Image on Success && Record Success
