@@ -41,7 +41,7 @@ jobs:
 
       - name: Run Test Cases
         run: |
-          docker run --rm liuyuweitarek/pytorch:2.1.0-py3.8-cuda11.8.0-ubuntu20.04 pytest tests/ || exit 1
+          docker run --rm -v $(pwd)/tests:/default-workspace/tests --name test-container --gpus all liuyuweitarek/pytorch:2.1.0-py3.8-cuda11.8.0-ubuntu20.04 bash -c "pytest tests"
 
       - name: Push Docker Image on Success && Record Success
         if: success()

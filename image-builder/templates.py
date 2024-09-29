@@ -14,6 +14,9 @@ torch={{version="{TORCH_PACKAGE_NAME}", source="torch"}}
 name = "PyPI"
 priority = "primary"
 
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+
 [[tool.poetry.source]]
 name = "torch"
 url = "{TORCH_SOURCE_URL}"
@@ -88,7 +91,7 @@ jobs:
 
       - name: Run Test Cases
         run: |
-          docker run --rm {IMAGE_TAG} pytest tests/ || exit 1
+          docker run --rm -v $(pwd)/tests:/default-workspace/tests --name test-container --gpus all {IMAGE_TAG} bash -c "pytest tests"
 
       - name: Push Docker Image on Success && Record Success
         if: success()

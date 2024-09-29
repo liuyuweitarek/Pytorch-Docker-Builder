@@ -10,7 +10,7 @@ ARG PYTHON_VERSION=$PYTHON_VERSION \
   TORCH_PACKAGE_NAME=$TORCH_PACKAGE_NAME \ 
   TORCH_SOURCE_URL=$TORCH_SOURCE_URL
 
-ENV PROJECT_ROOT_DIR=/defaut-workspace \
+ENV PROJECT_ROOT_DIR=/default-workspace \
   TORCH_PACKAGE_NAME=$TORCH_PACKAGE_NAME \ 
   TORCH_SOURCE_URL=$TORCH_SOURCE_URL \
   DEBIAN_FRONTEND=noninteractive \ 
@@ -37,5 +37,6 @@ WORKDIR ${PROJECT_ROOT_DIR}
 
 RUN python -m pip install --upgrade pip \
     && python -m pip install torch==${TORCH_PACKAGE_NAME} --extra-index-url ${TORCH_SOURCE_URL} --default-timeout=2000 \
+    && python -m pip install pytest \
     && rm -rf /root/.cache/pip
 
