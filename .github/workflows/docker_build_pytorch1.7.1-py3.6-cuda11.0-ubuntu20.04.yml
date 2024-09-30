@@ -22,7 +22,7 @@ on:
 
 jobs:
   build-image:
-    runs-on: ubuntu-latest
+    runs-on: linux.4xlarge.nvidia.gpu
     steps:
       - uses: actions/checkout@v3
       
