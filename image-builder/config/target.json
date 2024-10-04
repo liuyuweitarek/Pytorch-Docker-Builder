@@ -1,0 +1,18 @@
+[
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.0",
+        "CUDA_NAME": "cu110",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.7.1",
+        "TORCH_PACKAGE_NAME": "1.7.1+cu110",
+        "UBUNTU_VERSION": "20.04"
+    }
+]
