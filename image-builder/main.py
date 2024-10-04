@@ -1,14 +1,16 @@
 import os
-from constants import GITHUB_WORKFLOW_DIR, PYPROJECT_TOML_DIR, LOCAL_BUILD_SCRIPTS_DIR, COMPATIBLE_TARGET_FILE, TORCH_SOURCE_URL
+from constants import BADGES_DIR, GITHUB_WORKFLOW_DIR, PYPROJECT_TOML_DIR, LOCAL_BUILD_SCRIPTS_DIR, TARGET_FILE, ON_BUILDING_FILE, TORCH_SOURCE_URL
 from templates import pyproject_toml_template, github_workflow_template, local_poetry_build_script_template, local_pip_build_script_template
-from utils import update_compatible_version, read_json, write_json
+from utils import prepare_compatible_versions, read_json, write_json
 
-update_compatible_version()
+prepare_compatible_versions()
+
 os.makedirs(f"../{GITHUB_WORKFLOW_DIR}", exist_ok=True)
 os.makedirs(f"../{LOCAL_BUILD_SCRIPTS_DIR}", exist_ok=True)
 os.makedirs(PYPROJECT_TOML_DIR, exist_ok=True)
+os.makedirs(BADGES_DIR, exist_ok=True)
 
-compatible_versions = read_json(COMPATIBLE_TARGET_FILE)
+compatible_versions = read_json(ON_BUILDING_FILE)
 
 for version_info in compatible_versions:
     locals().update(version_info)
@@ -69,10 +71,12 @@ for version_info in compatible_versions:
                 IMAGE_TAG=IMAGE_TAG,
                 PACKAGE_MANAGEMENT = "poetry" if PYTHON_VERSION not in ["3.6", "3.7"] else "pip",
                 PYTHON_VERSION=PYTHON_VERSION,
+                TORCH_VERSION=TORCH_VERSION,
                 TORCH_PACKAGE_NAME=TORCH_PACKAGE_NAME,
                 TORCH_SOURCE_URL=torch_source_url,
                 PYPROJECT_FILE_DIR="./default-workspace",
                 DEFAULT_PYPROJECT_FILE=pyproject_filename,
+                CUDA_VERSION=CUDA_VERSION,
                 UBUNTU_VERSION=UBUNTU_VERSION,
                 WORKFLOW_FILE=os.path.join(GITHUB_WORKFLOW_DIR, workflow_filename)
             )
