@@ -1,0 +1,1 @@
+docker build -t liuyuweitarek/pytorch:1.13.0-py3.7-cuda11.7.1-ubuntu22.04 -f image-builder/docker/Ubuntu-Pip --build-arg PYTHON_VERSION=3.7 --build-arg UBUNTU_VERSION=22.04 --build-arg TORCH_PACKAGE_NAME=1.13.0+cu117 --build-arg TORCH_SOURCE_URL=https://download.pytorch.org/whl/cu117 --no-cache .
