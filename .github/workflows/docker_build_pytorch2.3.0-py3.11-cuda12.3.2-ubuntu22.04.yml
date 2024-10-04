@@ -14,11 +14,11 @@ env:
   UBUNTU_VERSION: "22.04"
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - .github/workflows/docker_build_pytorch2.3.0-py3.11-cuda12.3.2-ubuntu22.04.yml
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - .github/workflows/docker_build_pytorch2.3.0-py3.11-cuda12.3.2-ubuntu22.04.yml
   
   workflow_dispatch:
 
@@ -64,7 +64,9 @@ jobs:
         run: |
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git config --global user.name ${{ secrets.USER_NAME }}
+          git stash
           git pull origin main
+          git stash pop
           git add README.md image-builder/config/source.json image-builder/config/badges.json
           git commit -m "Update README & source liuyuweitarek/pytorch:2.3.0-py3.11-cuda12.3.2-ubuntu22.04" 
       

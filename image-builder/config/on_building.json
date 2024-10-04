@@ -10,14 +10,6 @@
     {
         "CUDA_VERSION": "11.0",
         "CUDA_NAME": "cu110",
-        "PYTHON_VERSION": "3.6",
-        "TORCH_VERSION": "1.7.1",
-        "TORCH_PACKAGE_NAME": "1.7.1+cu110",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.0",
-        "CUDA_NAME": "cu110",
         "PYTHON_VERSION": "3.7",
         "TORCH_VERSION": "1.7.0",
         "TORCH_PACKAGE_NAME": "1.7.0+cu110",
@@ -549,14 +541,6 @@
         "PYTHON_VERSION": "3.7",
         "TORCH_VERSION": "1.10.2",
         "TORCH_PACKAGE_NAME": "1.10.2+cu113",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.3.1",
-        "CUDA_NAME": "cu113",
-        "PYTHON_VERSION": "3.7",
-        "TORCH_VERSION": "1.11.0",
-        "TORCH_PACKAGE_NAME": "1.11.0+cu113",
         "UBUNTU_VERSION": "20.04"
     },
     {
