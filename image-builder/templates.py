@@ -64,11 +64,11 @@ env:
   UBUNTU_VERSION: "{UBUNTU_VERSION}"
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - {WORKFLOW_FILE}
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - {WORKFLOW_FILE}
   
   workflow_dispatch:
 
@@ -114,7 +114,9 @@ jobs:
         run: |
           git config --global user.email ${{{{ secrets.USER_EMAIL }}}}
           git config --global user.name ${{{{ secrets.USER_NAME }}}}
+          git stash
           git pull origin main
+          git stash pop
           git add README.md image-builder/config/source.json image-builder/config/badges.json
           git commit -m "Update README & source {IMAGE_TAG}" 
       
