@@ -27,6 +27,7 @@ Automate PyTorch Docker image builds with compatible Python, CUDA, and Poetry ve
 [pytorch2.0.1]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch2.0.1.svg
 [pytorch1.9.1]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch1.9.1.svg
 [pytorch1.7.1]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch1.7.1.svg
+[pytorch1.7.0]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch1.7.0.svg
 [pytorch1.11.0]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch1.11.0.svg
 [pytorch1.10.0]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch1.10.0.svg
 
@@ -46,4 +47,5 @@ Automate PyTorch Docker image builds with compatible Python, CUDA, and Poetry ve
 | ![pytorch1.9.1] ![python3.6] ![Pip] ![cuda11.1.1] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/1.9.1-py3.6-cuda11.1.1-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/1.9.1-py3.6-cuda11.1.1-ubuntu20.04` |
 | ![pytorch1.10.0] ![python3.6] ![Pip] ![cuda11.1.0] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/1.10.0-py3.6-cuda11.1.0-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/1.10.0-py3.6-cuda11.1.0-ubuntu20.04` |
 | ![pytorch1.9.1] ![python3.6] ![Pip] ![cuda11.1.0] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/1.9.1-py3.6-cuda11.1.0-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/1.9.1-py3.6-cuda11.1.0-ubuntu20.04` |
+| ![pytorch1.7.0] ![python3.7] ![Pip] ![cuda11.0] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/1.7.0-py3.7-cuda11.0-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/1.7.0-py3.7-cuda11.0-ubuntu20.04` |
 | ![pytorch1.7.1] ![python3.6] ![Pip] ![cuda11.0] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/1.7.1-py3.6-cuda11.0-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/1.7.1-py3.6-cuda11.0-ubuntu20.04` |
