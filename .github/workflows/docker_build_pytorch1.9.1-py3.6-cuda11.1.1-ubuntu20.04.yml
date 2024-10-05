@@ -14,11 +14,11 @@ env:
   UBUNTU_VERSION: "20.04"
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - .github/workflows/docker_build_pytorch1.9.1-py3.6-cuda11.1.1-ubuntu20.04.yml
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - .github/workflows/docker_build_pytorch1.9.1-py3.6-cuda11.1.1-ubuntu20.04.yml
   
   workflow_dispatch:
 
@@ -78,3 +78,4 @@ jobs:
         uses: liuyuweitarek/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+  

@@ -14,11 +14,11 @@ env:
   UBUNTU_VERSION: "20.04"
 
 on:
-  # push:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - .github/workflows/docker_build_pytorch1.10.0-py3.7-cuda11.1.1-ubuntu20.04.yml
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/docker_build_pytorch1.10.0-py3.7-cuda11.1.1-ubuntu20.04.yml
   
   workflow_dispatch:
 
@@ -60,14 +60,18 @@ jobs:
           echo "Record Failure: liuyuweitarek/pytorch:1.10.0-py3.7-cuda11.1.1-ubuntu20.04"
           docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py  -t test-tag --torch-version 1.10.0 --python-version 3.7 --cuda-version 11.1.1 --ubuntu-version 20.04 --build-result 'Build Failed'"
       
-      - name: commit
+      - name: Update README
         run: |
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git config --global user.name ${{ secrets.USER_NAME }}
           git stash
           git pull origin main
-          git stash pop
-          git add README.md image-builder/config/source.json image-builder/config/badges.json
+          git stash pop || true
+          if git diff --name-only --diff-filter=U | grep -q '^'; then
+            echo "Conflict detected"
+            git checkout --theirs -- .
+          fi
+          git add .
           git commit -m "Update README & source liuyuweitarek/pytorch:1.10.0-py3.7-cuda11.1.1-ubuntu20.04" 
       
       - name: Push changes
