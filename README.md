@@ -12,6 +12,7 @@ Automate PyTorch Docker image builds with compatible Python, CUDA, and Poetry ve
 
 
 <!-- CUDA versions -->
+[cuda12.1.0]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/cuda12.1.0.svg
 [cuda11.8.0]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/cuda11.8.0.svg
 [cuda11.3.1]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/cuda11.3.1.svg
 [cuda11.1.1]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/cuda11.1.1.svg
@@ -39,6 +40,7 @@ Automate PyTorch Docker image builds with compatible Python, CUDA, and Poetry ve
 
 | Properties | Size | Commands |
 | ---------- | ---- | -------- |
+| ![pytorch2.1.1] ![python3.11] ![Poetry] ![cuda12.1.0] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.1.1-py3.11-cuda12.1.0-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.1.1-py3.11-cuda12.1.0-ubuntu20.04` |
 | ![pytorch2.1.0] ![python3.11] ![Poetry] ![cuda11.8.0] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.1.0-py3.11-cuda11.8.0-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.1.0-py3.11-cuda11.8.0-ubuntu20.04` |
 | ![pytorch2.1.1] ![python3.10] ![Poetry] ![cuda11.8.0] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.1.1-py3.10-cuda11.8.0-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.1.1-py3.10-cuda11.8.0-ubuntu20.04` |
 | ![pytorch1.11.0] ![python3.7] ![Pip] ![cuda11.3.1] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/1.11.0-py3.7-cuda11.3.1-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/1.11.0-py3.7-cuda11.3.1-ubuntu20.04` |
