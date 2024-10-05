@@ -64,11 +64,11 @@ env:
   UBUNTU_VERSION: "{UBUNTU_VERSION}"
 
 on:
-  # push:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - {WORKFLOW_FILE}
+  push:
+    branches:
+      - main
+    paths:
+      - {WORKFLOW_FILE}
   
   workflow_dispatch:
 
@@ -115,11 +115,13 @@ jobs:
           git config --global user.email ${{{{ secrets.USER_EMAIL }}}}
           git config --global user.name ${{{{ secrets.USER_NAME }}}}
           git stash
-          git pull origin main --rebase
+          git pull origin main
           git stash pop || true
-          git checkout --ours .
-          git add README.md image-builder/config/source.json image-builder/config/badges.json
-          git rebase --continue || true
+          if git diff --name-only --diff-filter=U | grep -q '^'; then
+            echo "Conflict detected"
+            git checkout --theirs -- .
+          fi
+          git add .
           git commit -m "Update README & source {IMAGE_TAG}" 
       
       - name: Push changes
