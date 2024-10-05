@@ -110,14 +110,16 @@ jobs:
           echo "Record Failure: {IMAGE_TAG}"
           docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py  -t test-tag --torch-version {TORCH_VERSION} --python-version {PYTHON_VERSION} --cuda-version {CUDA_VERSION} --ubuntu-version {UBUNTU_VERSION} --build-result 'Build Failed'"
       
-      - name: commit
+      - name: Update README
         run: |
           git config --global user.email ${{{{ secrets.USER_EMAIL }}}}
           git config --global user.name ${{{{ secrets.USER_NAME }}}}
           git stash
-          git pull origin main
-          git stash pop
+          git pull origin main --rebase
+          git stash pop || true
+          git checkout --ours .
           git add README.md image-builder/config/source.json image-builder/config/badges.json
+          git rebase --continue || true
           git commit -m "Update README & source {IMAGE_TAG}" 
       
       - name: Push changes
