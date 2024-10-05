@@ -17,7 +17,7 @@ def cache_badge(
     with open(f"{BADGES_DIR}/{tag_name}.svg", 'w') as f:
         f.write(svg)
 
-def update_readme_beta():
+def update_readme():
 
     image_table_rows = []
     cuda_tags = set()
@@ -65,8 +65,11 @@ def update_readme_beta():
                 UBUNTU_TAGS="\n".join(sorted(ubuntu_tags, reverse=True)),
                 PYTORCH_TAGS="\n".join(sorted(pytorch_tags, reverse=True)),
                 PYTHON_TAGS="\n".join(sorted(python_tags, key=lambda x: list(map(int, x[x.index('python')+6:x.index(']')].split('.'))), reverse=True)),
-                IMAGE_TABLE="\n".join(reversed(image_table_rows))
+                IMAGE_TABLE="\n".join(image_table_rows)
             )
         )
+
+if __name__ == "__main__":
+    update_readme()
 
     
