@@ -47,18 +47,11 @@ jobs:
       #     docker run --rm -v $(pwd)/tests:/default-workspace/tests --name test-container --gpus all liuyuweitarek/pytorch:2.3.0-py3.9-cuda11.8.0-ubuntu20.04 bash -c "pytest tests"
 
       - name: Push Docker Image on Success && Record Success
-        if: success()
         run: |
           docker push liuyuweitarek/pytorch:2.3.0-py3.9-cuda11.8.0-ubuntu20.04
           echo "Record Success: liuyuweitarek/pytorch:2.3.0-py3.9-cuda11.8.0-ubuntu20.04"
           docker rmi liuyuweitarek/pytorch:2.3.0-py3.9-cuda11.8.0-ubuntu20.04
-          docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py  -t test-tag --torch-version 2.3.0 --python-version 3.9 --cuda-version 11.8.0 --ubuntu-version 20.04 --build-result 'Build Success'"
-      
-      - name: Record Failure
-        if: failure()
-        run: |
-          echo "Record Failure: liuyuweitarek/pytorch:2.3.0-py3.9-cuda11.8.0-ubuntu20.04"
-          docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py  -t test-tag --torch-version 2.3.0 --python-version 3.9 --cuda-version 11.8.0 --ubuntu-version 20.04 --build-result 'Build Failed'"
+          docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py"
       
       - name: Update README
         run: |
@@ -78,4 +71,3 @@ jobs:
         uses: liuyuweitarek/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-  

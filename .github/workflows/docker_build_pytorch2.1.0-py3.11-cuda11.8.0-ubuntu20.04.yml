@@ -47,28 +47,27 @@ jobs:
       #     docker run --rm -v $(pwd)/tests:/default-workspace/tests --name test-container --gpus all liuyuweitarek/pytorch:2.1.0-py3.11-cuda11.8.0-ubuntu20.04 bash -c "pytest tests"
 
       - name: Push Docker Image on Success && Record Success
-        if: success()
         run: |
           docker push liuyuweitarek/pytorch:2.1.0-py3.11-cuda11.8.0-ubuntu20.04
           echo "Record Success: liuyuweitarek/pytorch:2.1.0-py3.11-cuda11.8.0-ubuntu20.04"
           docker rmi liuyuweitarek/pytorch:2.1.0-py3.11-cuda11.8.0-ubuntu20.04
-          docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py  -t test-tag --torch-version 2.1.0 --python-version 3.11 --cuda-version 11.8.0 --ubuntu-version 20.04 --build-result 'Build Success'"
+          docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py"
       
-      - name: Record Failure
-        if: failure()
-        run: |
-          echo "Record Failure: liuyuweitarek/pytorch:2.1.0-py3.11-cuda11.8.0-ubuntu20.04"
-          docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py  -t test-tag --torch-version 2.1.0 --python-version 3.11 --cuda-version 11.8.0 --ubuntu-version 20.04 --build-result 'Build Failed'"
-      
-      - name: commit
+      - name: Update README
         run: |
           git config --global user.email ${{ secrets.USER_EMAIL }}
           git config --global user.name ${{ secrets.USER_NAME }}
-          git add README.md image-builder/config/source.json image-builder/config/badges.json
+          git stash
+          git pull origin main
+          git stash pop || true
+          if git diff --name-only --diff-filter=U | grep -q '^'; then
+            echo "Conflict detected"
+            git checkout --theirs -- .
+          fi
+          git add .
           git commit -m "Update README & source liuyuweitarek/pytorch:2.1.0-py3.11-cuda11.8.0-ubuntu20.04" 
       
       - name: Push changes
         uses: liuyuweitarek/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-  

@@ -1,5 +1,1205 @@
 [
     {
+        "CUDA_VERSION": "11.0",
+        "CUDA_NAME": "cu110",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.7.0",
+        "TORCH_PACKAGE_NAME": "1.7.0+cu110",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.0",
+        "CUDA_NAME": "cu110",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.7.1",
+        "TORCH_PACKAGE_NAME": "1.7.1+cu110",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.0",
+        "CUDA_NAME": "cu110",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.7.0",
+        "TORCH_PACKAGE_NAME": "1.7.0+cu110",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.0",
+        "CUDA_NAME": "cu110",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.7.1",
+        "TORCH_PACKAGE_NAME": "1.7.1+cu110",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.0",
+        "CUDA_NAME": "cu110",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.7.0",
+        "TORCH_PACKAGE_NAME": "1.7.0+cu110",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.0",
+        "CUDA_NAME": "cu110",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.7.1",
+        "TORCH_PACKAGE_NAME": "1.7.1+cu110",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.0",
+        "CUDA_NAME": "cu110",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.7.1",
+        "TORCH_PACKAGE_NAME": "1.7.1+cu110",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.8.0",
+        "TORCH_PACKAGE_NAME": "1.8.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.8.1",
+        "TORCH_PACKAGE_NAME": "1.8.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.9.0",
+        "TORCH_PACKAGE_NAME": "1.9.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.9.1",
+        "TORCH_PACKAGE_NAME": "1.9.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.8.0",
+        "TORCH_PACKAGE_NAME": "1.8.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.8.1",
+        "TORCH_PACKAGE_NAME": "1.8.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.9.0",
+        "TORCH_PACKAGE_NAME": "1.9.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.9.1",
+        "TORCH_PACKAGE_NAME": "1.9.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.8.0",
+        "TORCH_PACKAGE_NAME": "1.8.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.8.1",
+        "TORCH_PACKAGE_NAME": "1.8.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.9.0",
+        "TORCH_PACKAGE_NAME": "1.9.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.9.1",
+        "TORCH_PACKAGE_NAME": "1.9.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.8.0",
+        "TORCH_PACKAGE_NAME": "1.8.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.8.1",
+        "TORCH_PACKAGE_NAME": "1.8.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.9.0",
+        "TORCH_PACKAGE_NAME": "1.9.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.9.1",
+        "TORCH_PACKAGE_NAME": "1.9.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.0",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.8.0",
+        "TORCH_PACKAGE_NAME": "1.8.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.8.1",
+        "TORCH_PACKAGE_NAME": "1.8.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.9.0",
+        "TORCH_PACKAGE_NAME": "1.9.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.9.1",
+        "TORCH_PACKAGE_NAME": "1.9.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.8.0",
+        "TORCH_PACKAGE_NAME": "1.8.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.8.1",
+        "TORCH_PACKAGE_NAME": "1.8.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.9.0",
+        "TORCH_PACKAGE_NAME": "1.9.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.9.1",
+        "TORCH_PACKAGE_NAME": "1.9.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.8.0",
+        "TORCH_PACKAGE_NAME": "1.8.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.8.1",
+        "TORCH_PACKAGE_NAME": "1.8.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.9.0",
+        "TORCH_PACKAGE_NAME": "1.9.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.9.1",
+        "TORCH_PACKAGE_NAME": "1.9.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.8.0",
+        "TORCH_PACKAGE_NAME": "1.8.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.8.1",
+        "TORCH_PACKAGE_NAME": "1.8.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.9.0",
+        "TORCH_PACKAGE_NAME": "1.9.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.9.1",
+        "TORCH_PACKAGE_NAME": "1.9.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.1.1",
+        "CUDA_NAME": "cu111",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu111",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.6",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.11.0",
+        "TORCH_PACKAGE_NAME": "1.11.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.12.0",
+        "TORCH_PACKAGE_NAME": "1.12.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.12.1",
+        "TORCH_PACKAGE_NAME": "1.12.1+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.11.0",
+        "TORCH_PACKAGE_NAME": "1.11.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.12.0",
+        "TORCH_PACKAGE_NAME": "1.12.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.12.1",
+        "TORCH_PACKAGE_NAME": "1.12.1+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.10.0",
+        "TORCH_PACKAGE_NAME": "1.10.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.10.1",
+        "TORCH_PACKAGE_NAME": "1.10.1+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.10.2",
+        "TORCH_PACKAGE_NAME": "1.10.2+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.11.0",
+        "TORCH_PACKAGE_NAME": "1.11.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.12.0",
+        "TORCH_PACKAGE_NAME": "1.12.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.12.1",
+        "TORCH_PACKAGE_NAME": "1.12.1+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.11.0",
+        "TORCH_PACKAGE_NAME": "1.11.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.12.0",
+        "TORCH_PACKAGE_NAME": "1.12.0+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.3.1",
+        "CUDA_NAME": "cu113",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.12.1",
+        "TORCH_PACKAGE_NAME": "1.12.1+cu113",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.5.2",
+        "CUDA_NAME": "cu115",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.11.0",
+        "TORCH_PACKAGE_NAME": "1.11.0+cu115",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.5.2",
+        "CUDA_NAME": "cu115",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.11.0",
+        "TORCH_PACKAGE_NAME": "1.11.0+cu115",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.5.2",
+        "CUDA_NAME": "cu115",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.11.0",
+        "TORCH_PACKAGE_NAME": "1.11.0+cu115",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.5.2",
+        "CUDA_NAME": "cu115",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.11.0",
+        "TORCH_PACKAGE_NAME": "1.11.0+cu115",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.12.0",
+        "TORCH_PACKAGE_NAME": "1.12.0+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.12.1",
+        "TORCH_PACKAGE_NAME": "1.12.1+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.12.0",
+        "TORCH_PACKAGE_NAME": "1.12.0+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.12.1",
+        "TORCH_PACKAGE_NAME": "1.12.1+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.12.0",
+        "TORCH_PACKAGE_NAME": "1.12.0+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.12.1",
+        "TORCH_PACKAGE_NAME": "1.12.1+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.12.0",
+        "TORCH_PACKAGE_NAME": "1.12.0+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.12.1",
+        "TORCH_PACKAGE_NAME": "1.12.1+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.6.2",
+        "CUDA_NAME": "cu116",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu116",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu117",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.7",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "1.13.0",
+        "TORCH_PACKAGE_NAME": "1.13.0+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "1.13.1",
+        "TORCH_PACKAGE_NAME": "1.13.1+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.7.1",
+        "CUDA_NAME": "cu117",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu117",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
         "CUDA_VERSION": "11.8.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.8",
@@ -59,273 +1259,41 @@
         "CUDA_VERSION": "11.8.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "11.8.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "11.8.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "11.8.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "11.8.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
         "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
-        "UBUNTU_VERSION": "22.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
-        "UBUNTU_VERSION": "22.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
-        "UBUNTU_VERSION": "22.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
-        "UBUNTU_VERSION": "22.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
-        "UBUNTU_VERSION": "22.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
-        "UBUNTU_VERSION": "22.04"
-    },
-    {
-        "CUDA_VERSION": "11.8.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
-        "UBUNTU_VERSION": "22.04"
     },
     {
         "CUDA_VERSION": "11.8.0",
@@ -333,6 +1301,446 @@
         "PYTHON_VERSION": "3.9",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -387,6 +1795,54 @@
         "CUDA_VERSION": "11.8.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.2.1",
         "TORCH_PACKAGE_NAME": "2.2.1+cu118",
         "UBUNTU_VERSION": "22.04"
@@ -429,6 +1885,46 @@
         "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.4.1",
         "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "11.8.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -547,272 +2043,40 @@
         "CUDA_VERSION": "12.0.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "12.0.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "12.0.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "12.0.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "12.0.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.0.0",
-        "CUDA_NAME": "cu118",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
         "UBUNTU_VERSION": "20.04"
     },
     {
@@ -821,6 +2085,446 @@
         "PYTHON_VERSION": "3.8",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -869,6 +2573,46 @@
         "PYTHON_VERSION": "3.8",
         "TORCH_VERSION": "2.4.1",
         "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -931,6 +2675,54 @@
         "CUDA_VERSION": "12.0.0",
         "CUDA_NAME": "cu118",
         "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.2.1",
         "TORCH_PACKAGE_NAME": "2.2.1+cu118",
         "UBUNTU_VERSION": "22.04"
@@ -973,6 +2765,46 @@
         "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.4.1",
         "TORCH_PACKAGE_NAME": "2.4.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.0",
+        "TORCH_PACKAGE_NAME": "2.0.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.0.1",
+        "TORCH_PACKAGE_NAME": "2.0.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu118",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.0.0",
+        "CUDA_NAME": "cu118",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu118",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -1091,272 +2923,24 @@
         "CUDA_VERSION": "12.1.0",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "12.1.0",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "12.1.0",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.1.0",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
         "UBUNTU_VERSION": "20.04"
     },
     {
@@ -1365,6 +2949,382 @@
         "PYTHON_VERSION": "3.8",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -1413,6 +3373,30 @@
         "PYTHON_VERSION": "3.8",
         "TORCH_VERSION": "2.4.1",
         "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -1475,6 +3459,38 @@
         "CUDA_VERSION": "12.1.0",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.2.1",
         "TORCH_PACKAGE_NAME": "2.2.1+cu121",
         "UBUNTU_VERSION": "22.04"
@@ -1517,6 +3533,30 @@
         "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.4.1",
         "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.1.0",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -1635,272 +3675,24 @@
         "CUDA_VERSION": "12.2.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "12.2.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
         "UBUNTU_VERSION": "20.04"
     },
     {
         "CUDA_VERSION": "12.2.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.8",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.9",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.10",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.11",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.0",
-        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.1",
-        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.2.2",
-        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.3.0",
-        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.3.1",
-        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.4.0",
-        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
-        "UBUNTU_VERSION": "20.04"
-    },
-    {
-        "CUDA_VERSION": "12.2.2",
-        "CUDA_NAME": "cu121",
-        "PYTHON_VERSION": "3.12",
-        "TORCH_VERSION": "2.4.1",
-        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
         "UBUNTU_VERSION": "20.04"
     },
     {
@@ -1909,6 +3701,382 @@
         "PYTHON_VERSION": "3.8",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.1",
+        "TORCH_PACKAGE_NAME": "2.2.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.2.2",
+        "TORCH_PACKAGE_NAME": "2.2.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.3.0",
+        "TORCH_PACKAGE_NAME": "2.3.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.3.1",
+        "TORCH_PACKAGE_NAME": "2.3.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.4.0",
+        "TORCH_PACKAGE_NAME": "2.4.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.12",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.2.0",
+        "TORCH_PACKAGE_NAME": "2.2.0+cu121",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -1957,6 +4125,30 @@
         "PYTHON_VERSION": "3.8",
         "TORCH_VERSION": "2.4.1",
         "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -2019,6 +4211,30 @@
         "CUDA_VERSION": "12.2.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu121",
         "UBUNTU_VERSION": "22.04"
@@ -2075,6 +4291,30 @@
         "CUDA_VERSION": "12.2.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.2.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu121",
         "UBUNTU_VERSION": "22.04"
@@ -2187,6 +4427,30 @@
         "CUDA_VERSION": "12.3.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu121",
         "UBUNTU_VERSION": "20.04"
@@ -2243,6 +4507,30 @@
         "CUDA_VERSION": "12.3.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu121",
         "UBUNTU_VERSION": "20.04"
@@ -2299,6 +4587,30 @@
         "CUDA_VERSION": "12.3.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu121",
         "UBUNTU_VERSION": "20.04"
@@ -2349,6 +4661,30 @@
         "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.4.1",
         "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "20.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
         "UBUNTU_VERSION": "20.04"
     },
     {
@@ -2467,6 +4803,30 @@
         "CUDA_VERSION": "12.3.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.8",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu121",
         "UBUNTU_VERSION": "22.04"
@@ -2523,6 +4883,30 @@
         "CUDA_VERSION": "12.3.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.9",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu121",
         "UBUNTU_VERSION": "22.04"
@@ -2579,6 +4963,30 @@
         "CUDA_VERSION": "12.3.2",
         "CUDA_NAME": "cu121",
         "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.2.0",
         "TORCH_PACKAGE_NAME": "2.2.0+cu121",
         "UBUNTU_VERSION": "22.04"
@@ -2629,6 +5037,30 @@
         "PYTHON_VERSION": "3.10",
         "TORCH_VERSION": "2.4.1",
         "TORCH_PACKAGE_NAME": "2.4.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.0",
+        "TORCH_PACKAGE_NAME": "2.1.0+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.1",
+        "TORCH_PACKAGE_NAME": "2.1.1+cu121",
+        "UBUNTU_VERSION": "22.04"
+    },
+    {
+        "CUDA_VERSION": "12.3.2",
+        "CUDA_NAME": "cu121",
+        "PYTHON_VERSION": "3.11",
+        "TORCH_VERSION": "2.1.2",
+        "TORCH_PACKAGE_NAME": "2.1.2+cu121",
         "UBUNTU_VERSION": "22.04"
     },
     {
@@ -3085,6 +5517,14 @@
         "PYTHON_VERSION": "3.9",
         "TORCH_VERSION": "2.4.0",
         "TORCH_PACKAGE_NAME": "2.4.0+cu124",
+        "UBUNTU_VERSION": "24.04"
+    },
+    {
+        "CUDA_VERSION": "12.5.1",
+        "CUDA_NAME": "cu124",
+        "PYTHON_VERSION": "3.9",
+        "TORCH_VERSION": "2.4.1",
+        "TORCH_PACKAGE_NAME": "2.4.1+cu124",
         "UBUNTU_VERSION": "24.04"
     },
     {
