@@ -7,7 +7,6 @@ SOURCE_FILE = "config/source.json"
 META_FILE = "config/meta.json"
 ON_BUILDING_FILE = "config/on_building.json"
 TARGET_FILE = "config/target.json"
-BADGES_FILE = "config/badges.json"
 
 TORCH_SOURCE_URL = "https://download.pytorch.org/whl/{CUDA_NAME}"
 

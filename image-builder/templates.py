@@ -97,18 +97,11 @@ jobs:
       #     docker run --rm -v $(pwd)/tests:/default-workspace/tests --name test-container --gpus all {IMAGE_TAG} bash -c "pytest tests"
 
       - name: Push Docker Image on Success && Record Success
-        if: success()
         run: |
           docker push {IMAGE_TAG}
           echo "Record Success: {IMAGE_TAG}"
           docker rmi {IMAGE_TAG}
-          docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py  -t test-tag --torch-version {TORCH_VERSION} --python-version {PYTHON_VERSION} --cuda-version {CUDA_VERSION} --ubuntu-version {UBUNTU_VERSION} --build-result 'Build Success'"
-      
-      - name: Record Failure
-        if: failure()
-        run: |
-          echo "Record Failure: {IMAGE_TAG}"
-          docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py  -t test-tag --torch-version {TORCH_VERSION} --python-version {PYTHON_VERSION} --cuda-version {CUDA_VERSION} --ubuntu-version {UBUNTU_VERSION} --build-result 'Build Failed'"
+          docker run --rm -v $(pwd):/code --name update-readme-container liuyuweitarek/pytorch:update-readme bash -c "cd image-builder && python report.py"
       
       - name: Update README
         run: |
@@ -128,7 +121,6 @@ jobs:
         uses: liuyuweitarek/github-push-action@master
         with:
           github_token: ${{{{ secrets.GITHUB_TOKEN }}}}
-  
 """
 
 image_table_row_template = "| ![pytorch{TORCH_VERSION}] ![python{PYTHON_VERSION}] ![{PACKAGE_MANAGEMENT}] ![cuda{CUDA_VERSION}] ![ubuntu{UBUNTU_VERSION}] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/{TORCH_VERSION}-py{PYTHON_VERSION}-cuda{CUDA_VERSION}-ubuntu{UBUNTU_VERSION}?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/{TORCH_VERSION}-py{PYTHON_VERSION}-cuda{CUDA_VERSION}-ubuntu{UBUNTU_VERSION}` |"
