@@ -326,6 +326,7 @@ Done!
 
 <!-- PyTorch versions -->
 [pytorch2.4.1]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch2.4.1.svg
+[pytorch2.4.0]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch2.4.0.svg
 [pytorch2.2.0]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch2.2.0.svg
 [pytorch2.1.2]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch2.1.2.svg
 [pytorch2.1.1]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/pytorch2.1.1.svg
@@ -360,6 +361,7 @@ Done!
 | Properties | Size | Commands |
 | ---------- | ---- | -------- |
 | ![pytorch2.4.1] ![python3.9] ![Poetry] ![cuda12.5.1] ![ubuntu24.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.4.1-py3.9-cuda12.5.1-ubuntu24.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.4.1-py3.9-cuda12.5.1-ubuntu24.04` |
+| ![pytorch2.4.0] ![python3.11] ![Poetry] ![cuda12.5.1] ![ubuntu22.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.4.0-py3.11-cuda12.5.1-ubuntu22.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.4.0-py3.11-cuda12.5.1-ubuntu22.04` |
 | ![pytorch2.2.0] ![python3.10] ![Poetry] ![cuda11.8.0] ![ubuntu22.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.2.0-py3.10-cuda11.8.0-ubuntu22.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.2.0-py3.10-cuda11.8.0-ubuntu22.04` |
 | ![pytorch2.2.0] ![python3.10] ![Poetry] ![cuda12.0.0] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.2.0-py3.10-cuda12.0.0-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.2.0-py3.10-cuda12.0.0-ubuntu20.04` |
 | ![pytorch2.2.0] ![python3.10] ![Poetry] ![cuda11.8.0] ![ubuntu20.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.2.0-py3.10-cuda11.8.0-ubuntu20.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.2.0-py3.10-cuda11.8.0-ubuntu20.04` |
