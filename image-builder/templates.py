@@ -145,30 +145,29 @@ Find the image in [the table below](https://github.com/liuyuweitarek/Pytorch-Doc
 >
 > Only images with Python >= 3.8 can use Poetry, while others use Pip.
 
-## **How do I know which image to use?**
+## How do I know which image to use?
 
 Install the valid version of cuda toolkit, refer to [these links](https://github.com/liuyuweitarek/Pytorch-Docker-Builder/edit/main/README.md#dependencies-references). Make sure that nvidia driver is [successfully installed](https://liuyuweitarek.github.io/python-poetry-wsl2-ubuntu-gpu-docker-template/getting_started/prerequisites/cuda-toolkit.html). Then, based on the `cuda version` you select, you can find the compatible `ubuntu version`, `python version` and `torch version` in [the config file](https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/config/compatible_versions.json). 
 
 E.g. If you are using cuda `11.8.0`, in the [config file](https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/config/compatible_versions.json), you can find the compatible `python version`, `torch version` and `ubuntu version` as follows:
 
 ```json
-{
-    "11.8.0": {
+{{
+    "11.8.0": {{
         "package_name": "cu118",
-        "python_available_torch": {
+        "python_available_torch": {{
             "3.8": ["2.0.0", "2.0.1", "2.1.0", "2.1.1", "2.1.2", "2.2.0", "2.2.1", "2.2.2", "2.3.0", "2.3.1", "2.4.0", "2.4.1"],
             "3.9": ["2.0.0", "2.0.1", "2.1.0", "2.1.1", "2.1.2", "2.2.0", "2.2.1", "2.2.2", "2.3.0", "2.3.1", "2.4.0", "2.4.1"],
             "3.10": ["2.0.0", "2.0.1", "2.1.0", "2.1.1", "2.1.2", "2.2.0", "2.2.1", "2.2.2", "2.3.0", "2.3.1", "2.4.0", "2.4.1"],
             "3.11": ["2.0.0", "2.0.1", "2.1.0", "2.1.1", "2.1.2", "2.2.0", "2.2.1", "2.2.2", "2.3.0", "2.3.1", "2.4.0", "2.4.1"],
             "3.12": ["2.2.0", "2.2.1", "2.2.2", "2.3.0", "2.3.1", "2.4.0", "2.4.1"]
-        },
+        }},
         "ubuntu_avaiable": ["18.04", "20.04", "22.04"]
-    }
-}
+    }}
+}}
 ```
 
 Therefore, you can find which image to use or based the compatible versions build your own docker image.
-
 
 ## Prerequisites
 
@@ -204,7 +203,7 @@ docker run --gpus all -v /path/to/your/code:/workspace -w /workspace --rm -it li
 
 - `-v /path/to/your/code:/workspace`: Mounts your local directory (/path/to/your/code) to the container's `/workspace` directory. 
   
-  (P.S. Windows Powershell use `${PWD}`; Linux Bash use `$(pwd)`)
+  (P.S. Windows Powershell use `${{PWD}}`; Linux Bash use `$(pwd)`)
 
 - `-w /workspace`: Sets the working directory to `/workspace` inside the container.
 
@@ -214,12 +213,12 @@ docker run --gpus all -v /path/to/your/code:/workspace -w /workspace --rm -it li
 
 **Example Output:**
 
-- Executed command: `docker run --gpus all -v ${PWD}:/workspace -w /workspace --rm -it liuyuweitarek/pytorch:2.1.0-py3.10-cuda11.8.0-ubuntu20.04`
+- Executed command: `docker run --gpus all -v ${{PWD}}:/workspace -w /workspace --rm -it liuyuweitarek/pytorch:2.1.0-py3.10-cuda11.8.0-ubuntu20.04`
   
-  (Linux user should replace `${PWD}` with `$(pwd)`)
+  (Linux user should replace `${{PWD}}` with `$(pwd)`)
   
   ```bash
-  D:\github\docker-test> docker run --gpus all -v ${PWD}:/workspace -w /workspace --rm -it liuyuweitarek/pytorch:2.1.0-py3.10-cuda11.8.0-ubuntu20.04
+  D:\github\docker-test> docker run --gpus all -v ${{PWD}}:/workspace -w /workspace --rm -it liuyuweitarek/pytorch:2.1.0-py3.10-cuda11.8.0-ubuntu20.04
   Unable to find image 'liuyuweitarek/pytorch:2.1.0-py3.10-cuda11.8.0-ubuntu20.04' locally
   2.1.0-py3.10-cuda11.8.0-ubuntu20.04: Pulling from liuyuweitarek/pytorch
   602d8ad51b81: Pull complete
@@ -354,7 +353,7 @@ Current folder file structure:
   Under `D:\github\docker-test`, run docker command again. However, we lost the package just installed.  
 
   ```bash
-  PS D:\github\docker-test> docker run --gpus all -v ${PWD}:/workspace -w /workspace --rm -it liuyuweitarek/pytorch:2.1.0-py3.10-cuda11.8.0-ubuntu20.04
+  PS D:\github\docker-test> docker run --gpus all -v ${{PWD}}:/workspace -w /workspace --rm -it liuyuweitarek/pytorch:2.1.0-py3.10-cuda11.8.0-ubuntu20.04
   root@65078665a0e9:/workspace# python
   Python 3.10.15 (main, Sep  7 2024, 18:35:33) [GCC 9.4.0] on linux
   Type "help", "copyright", "credits" or "license" for more information.
@@ -415,7 +414,7 @@ $ docker build -t my-project-image -f my-project/Dockerfile .
 **RUN your image**
 
 ```bash   
-$ docker run --gpus all -v ${PWD}:/workspace -w /workspace --rm -it my-project-image
+$ docker run --gpus all -v ${{PWD}}:/workspace -w /workspace --rm -it my-project-image
 
 root@6057cc148ae7:/workspace#
 root@6057cc148ae7:/workspace# python
@@ -428,7 +427,7 @@ True
 ```
 
 Done!
-  
+
 <!-- Package Management Tools -->
 [Pip]: https://img.shields.io/badge/Pip-blue
 [Poetry]: https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json
