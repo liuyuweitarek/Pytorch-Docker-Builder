@@ -307,6 +307,7 @@ Done!
 <!-- CUDA versions -->
 [cuda12.6.1]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/cuda12.6.1.svg
 [cuda12.5.1]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/cuda12.5.1.svg
+[cuda12.4.1]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/cuda12.4.1.svg
 [cuda12.3.2]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/cuda12.3.2.svg
 [cuda12.2.2]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/cuda12.2.2.svg
 [cuda12.1.0]: https://github.com/liuyuweitarek/Pytorch-Docker-Builder/blob/main/image-builder/badges/cuda12.1.0.svg
@@ -361,6 +362,7 @@ Done!
 
 | Properties | Size | Commands |
 | ---------- | ---- | -------- |
+| ![pytorch2.4.1] ![python3.10] ![Poetry] ![cuda12.4.1] ![ubuntu22.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.4.1-py3.10-cuda12.4.1-ubuntu22.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.4.1-py3.10-cuda12.4.1-ubuntu22.04` |
 | ![pytorch2.4.1] ![python3.11] ![Poetry] ![cuda12.6.1] ![ubuntu22.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.4.1-py3.11-cuda12.6.1-ubuntu22.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.4.1-py3.11-cuda12.6.1-ubuntu22.04` |
 | ![pytorch2.4.1] ![python3.8] ![Poetry] ![cuda12.6.1] ![ubuntu24.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.4.1-py3.8-cuda12.6.1-ubuntu24.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.4.1-py3.8-cuda12.6.1-ubuntu24.04` |
 | ![pytorch2.4.1] ![python3.9] ![Poetry] ![cuda12.5.1] ![ubuntu24.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.4.1-py3.9-cuda12.5.1-ubuntu24.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.4.1-py3.9-cuda12.5.1-ubuntu24.04` |
