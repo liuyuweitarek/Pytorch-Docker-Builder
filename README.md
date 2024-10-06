@@ -361,6 +361,7 @@ Done!
 
 | Properties | Size | Commands |
 | ---------- | ---- | -------- |
+| ![pytorch2.4.1] ![python3.9] ![Poetry] ![cuda12.6.1] ![ubuntu22.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.4.1-py3.9-cuda12.6.1-ubuntu22.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.4.1-py3.9-cuda12.6.1-ubuntu22.04` |
 | ![pytorch2.4.1] ![python3.9] ![Poetry] ![cuda12.6.1] ![ubuntu24.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.4.1-py3.9-cuda12.6.1-ubuntu24.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.4.1-py3.9-cuda12.6.1-ubuntu24.04` |
 | ![pytorch2.4.1] ![python3.9] ![Poetry] ![cuda12.5.1] ![ubuntu24.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.4.1-py3.9-cuda12.5.1-ubuntu24.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.4.1-py3.9-cuda12.5.1-ubuntu24.04` |
 | ![pytorch2.4.0] ![python3.11] ![Poetry] ![cuda12.5.1] ![ubuntu22.04] | [![](https://img.shields.io/docker/image-size/liuyuweitarek/pytorch/2.4.0-py3.11-cuda12.5.1-ubuntu22.04?style=plastic&label=Size)][DockerHub] | `docker pull liuyuweitarek/pytorch/2.4.0-py3.11-cuda12.5.1-ubuntu22.04` |
